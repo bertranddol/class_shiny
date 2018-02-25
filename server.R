@@ -25,7 +25,7 @@ shinyServer(function(input, output) {
   output$plot1 <- renderPlot({
     mpgInput <- input$sliderMPG
     
-    plot(mtcars$cyl, mtcars$accident, xlab = "Gear", 
+    plot(mtcars$cyl, mtcars$accident, xlab = "Cylinder", 
          ylab = "Accident Rate", bty = "n", pch = 16,
          xlim = c(2, 12), ylim = c(0, 80))
     if(input$showModel1){

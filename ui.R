@@ -1,6 +1,6 @@
 library(shiny)
 shinyUI(fluidPage(
-  titlePanel("Predict Accident Rate from Gear"),
+  titlePanel("Predict Accident Rate from Cylinder"),
   sidebarLayout(
     sidebarPanel(
       sliderInput("sliderMPG", "Number of Cylinder?", 2, 12, value = 6),
