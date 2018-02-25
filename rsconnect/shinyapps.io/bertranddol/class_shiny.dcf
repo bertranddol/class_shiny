@@ -1,0 +1,12 @@
+name: class_shiny
+title: class_shiny
+username:
+account: bertranddol
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 288242
+bundleId: 1239166
+url: https://bertranddol.shinyapps.io/class_shiny/
+when: 1519581517.22934
+asMultiple: FALSE
+asStatic: FALSE
